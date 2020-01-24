@@ -1,9 +1,11 @@
 import numpy as np
 from tools import calculate_area
+import pytest
 
 
 def test_calculate_area_negative():
-    calculate_area(-1)
+    with pytest.raises(AssertionError):
+        calculate_area(-1)
 
 
 def test_calculate_area_pi():
