@@ -4,7 +4,7 @@ from tools import calculate_area, calculate_circ
 
 def test_calculate_area_pi():
     # calculate_area(-1)
-    assert calculate_area(1) == -np.pi, "For radius of 1, area should be pi"
+    assert calculate_area(1) == np.pi, "For radius of 1, area should be pi"
 
 
 def test_calculate_area_zero():
