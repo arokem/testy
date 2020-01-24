@@ -1,5 +1,5 @@
 import numpy as np
-from tools import calculate_area, calculate_circ
+from tools import calculate_area
 
 
 def test_calculate_area_pi():
